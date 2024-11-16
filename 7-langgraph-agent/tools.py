@@ -5,6 +5,8 @@ import json
 import os
 
 from langchain_core.tools import tool
+from langchain.tools import Tool
+from runnable import vectorstore
 
 load_dotenv()
 
